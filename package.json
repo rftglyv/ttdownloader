@@ -1,0 +1,35 @@
+{
+  "name": "ttdownloader",
+  "version": "0.0.1",
+  "description": "TT downloader",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rftglyv/ttdownloader.git"
+  },
+  "author": "rftglyv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rftglyv/ttdownloader/issues"
+  },
+  "homepage": "https://github.com/rftglyv/ttdownloader#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "compression": "^1.7.5",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0",
+    "tiktok-scraper-ts": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
