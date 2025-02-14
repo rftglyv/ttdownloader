@@ -1,12 +1,12 @@
 {
   "name": "ttdownloader",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "TT downloader",
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.mjs",
+    "dev": "nodemon server.mjs"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,8 @@
     "express-rate-limit": "^7.5.0",
     "helmet": "^8.0.0",
     "morgan": "^1.10.0",
+    "nanoid": "^5.0.9",
+    "node-fetch": "^3.3.2",
     "tiktok-scraper-ts": "^1.4.1"
   },
   "devDependencies": {
